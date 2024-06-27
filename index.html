@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!--META TAGS-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>CakeGourmet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.cdnfonts.com/css/miso" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/banner.css">
+    <link rel="stylesheet" href="/assets/styles/header.css">
+    <link rel="stylesheet" href="/assets/styles/carrossel.css">
+    <link rel="stylesheet" href="/assets/styles/historia.css">
+    <link rel="stylesheet" href="/assets/styles/contato.css">
+    <link rel="stylesheet" href="/assets/styles/login/styles/login.css">
+    <link rel="stylesheet" href="./assets/styles/anamation.css">
+</head>
+<!--BODY-->
+<body>
+    <!--INÍCIO DO CABEÇALHO-->
+    <header class="cabecalho">
+        <!--MENU HAMBÚRGUER PARA MOBILE-->
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Casamentos</a>
+                </li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Infantis</a>
+                </li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Aniversário</a>
+                </li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Gourmet</a>
+                </li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Caseiro</a>
+                </li>
+            </ul>
+            </ul>
+            <img class="logo__cake" src="/assets/images/logo-menu.png" alt="Logo da CakeGourmet" width="60">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Cake</b>Gourmet</h1>
+        </div>
+        <!-- FINAL DO MENU HAMBÚRGUER PARA MOBILE-->
+
+        <!--MENU PARA TABLET/NOTEBOOK/DESK-->
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu" class="opcoes__rotulo">
+                <li class="opcoes__titulo">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Casamentos</a>
+                </li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Infantis</a>
+                </li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Aniversário</a>
+                </li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Gourmet</a>
+                </li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Caseiro</a>
+                </li>
+            </ul>
+            <!--FINAL MENU PARA TABLET/NOTEBOOK/DESK-->
+
+            <!--NAV-->
+            <li class="opcoes__item"><a href="#container-slider" class="opcoes__link__galeria">Galeria</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link"></a> <img src="/assets/images/whatsapp.png"
+                    class="opcoes__link" alt="logo-whatsapp" width="25"></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link"></a> <img src="/assets/images/instagram.png"
+                    class="opcoes__link" alt="logo-instagram" width="25"></li>
+        </ul>
+
+        <div class="container">
+            <a href="#" class="container__link">
+                <img src="/assets/images/bolsa.png" width="30px" alt="Carrinho de compras" class="container__imagem">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="/login/login.html" class="container__link">
+                <img src="/assets/images/do-utilizador.png" width="30px" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+        <!--FINAL DO NAV-->
+    </header>
+    <!--FINAL DO CABEÇALHO-->
+
+    <!--1ª SECTION (BANNER)-->
+    <section id="container-banner">
+        <div class="content">
+            <img src="/assets/images/logo-loja.png" alt="logo-loja" width="150px" class="img-logo">
+            <h2 class="banner__titulo"> CONFEITARIA CAKE GOURMET</h2>
+            <p class="banner__texto">Encontre em nosso catálogo o que precisa para o seu evento! Fazendo história a 125 anos.</p>
+            <a href="#container-historia"><button class="botao">CONHEÇA</button></a>
+        </div>
+        <!-- </section> -->
+        </div>
+        <a href="#container-banner"> <button class="scrollTop">
+                <img src="./assets/images/upload.png" alt="">
+            </button></a>
+
+    </section>
+    <!--FIM DA 1ª SECTION (BANNER)-->
+
+    <!--2ª SECTION (GALERIA)-->
+    <section id="container-slider">
+        <div class="apresentacao-trabalho">
+            <h2 class="titulo-carrossel">Conheça um pouco do nosso trabalho!</h2>
+        </div>
+
+        <!--CARROSSEL DE IMAGENS-->
+        <div class="slider">
+            <div class="slides">
+                
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                
+
+                <!--Slide images-->
+                <div class="slide first">
+                    <img src="/assets/images/bolo-casamento.jpg" alt="bolo de casamento">
+                </div>
+                <div class="slide">
+                    <img src="/assets/images/cupcake.jpg" alt="bolo de festa">
+                </div>
+                <div class="slide">
+                    <img src="/assets/images/flor-bolo.jpg" alt="bolo de menina">
+                </div>
+                <div class="slide">
+                    <img src="/assets/images/cupcake2.jpg" alt="fatia de bolo">
+                </div>
+                <!--Fim Slide images-->
+
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+        <!--FINAL DO CARROSSEL DE IMAGENS-->
+
+        <div class="apresentacao-texto">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Excepturi
+                consequuntur, architecto dicta, amet unde, iure dolores a magni esse
+                vel et ipsa aut error perspiciatis dolor accusa.</h3>
+        </div>
+
+        <!--VIDEOS-->
+        <ul class="videos_container">
+            <li class="videos__item">
+                <iframe width="100%" height="72%" src="https://www.youtube.com/embed/8iP73YlthFw?si=4jqV9U9p_4AVFYGZ"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                  gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+                <div class="descricao-video">
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </li>
+            <li class="videos__item">
+                <iframe width="100%" height="72%" src="https://www.youtube.com/embed/FH39AqIh0Dw?si=oSNQmim3Yy5Wwa8o"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+              gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+            </li>
+        </ul>
+        <!--FINAL - VIDEOS-->
+    </section>
+    <!--FIM DA2ª SECTION (GALERIA)-->
+
+    <!--3ª SECTION (HISTÓRIA)-->
+    <section id="container-historia">
+        <div class="historia-titulo">
+            <h2 class="titulo-hist">HISTÓRIA</h2>
+        </div>
+        <div class="historia-texto">
+            <H3>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <br>
+                ducimus sequi tempora officiis autem dolores ipsam!</H3>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Natus quos eius quibusdam laboriosam explicabo, nesciunt
+                distinctio adipisci provident quam quas, quae perferendis
+                possimus, deserunt officiis totam repellat quaerat a error
+                accusantium voluptates libero ipsum. Nihil, perferendis.
+                Quos aspernatur assumenda suscipit eaque repudiandae?
+                Porro, enim expedita dolor ipsam molestiae pariatur voluptatem.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Natus quos eius quibusdam laboriosam explicabo, nesciunt
+                distinctio adipisci provident quam quas, quae perferendis
+                possimus, deserunt officiis totam repellat quaerat a error
+                accusantium voluptates libero ipsum. Nihil, perferendis.
+                Quos aspernatur assumenda suscipit eaque repudiandae?
+                Porro, enim expedita dolor ipsam molestiae pariatur voluptatem.</p> <br><br>
+            <H3>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <br>
+                ducimus sequi tempora officiis autem dolores ipsam!</H3>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Natus quos eius quibusdam laboriosam explicabo, nesciunt
+                distinctio adipisci provident quam quas, quae perferendis
+                possimus, deserunt officiis totam repellat quaerat a error
+                accusantium voluptates libero ipsum. Nihil, perferendis.
+                Quos aspernatur assumenda suscipit eaque repudiandae?
+                Porro, enim expedita dolor ipsam molestiae pariatur voluptatem.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Natus quos eius quibusdam laboriosam explicabo, nesciunt
+                distinctio adipisci provident quam quas, quae perferendis
+                possimus, deserunt officiis totam repellat quaerat a error
+                accusantium voluptates libero ipsum. Nihil, perferendis.
+                Quos aspernatur assumenda suscipit eaque repudiandae?
+                Porro, enim expedita dolor ipsam molestiae pariatur voluptatem.</p>
+        </div>
+        <ul class="fotos-historia">
+            <div class="foto-1">
+            <li class="fotos__item">
+                <img src="/assets/images/Historia-balcao-1927.jpg" alt="">
+                <div class="descricao-foto">
+                    <h3>balcão da confeitaria em 1927</h3>
+                    <p>foto de 1927</p>
+                </div>
+            </li>
+        </div>
+            <div class="foto-1">
+            <li class="fotos__item">
+                <img src="/assets/images/Salao-Terreo.jpg" alt="">
+                <div class="descricao-foto">
+                <h3>salão térreo</h3>
+                <p>foto de 1950</p>
+                </div>
+            </li>
+        </div>
+        </ul>
+    </section>
+    <!--FIM DA 3ª SECTION (HISTÓRIA)-->
+
+    <!--4ª SECTION (CONTATO)-->
+    <section class="container-contato">
+        <h3 class="contato-titulo">CONTATO</h3>
+        <form id="contact-form">
+            <div class="container-form">
+                <section>
+                    <h3>Informações Pessoais</h3>
+                    <label for="name">Nome:</label> <br>
+                    <input class="box" type="text" id="name" name="name" required><br><br>
+                    <label for="lastname">Sobrenome:</label><br>
+                    <input class="box" type="text" id="lastname" name="lastname" required><br><br>
+                    <label for="email">E-mail:</label><br>
+                    <input class="box" type="email" id="email" name="email" required><br><br>
+                    <label for="phone">Telefone:</label><br>
+                    <input class="box" type="tel" id="phone" name="phone" required><br><br>
+                </section>
+
+                <section>
+                    <h3>Mensagem</h3>
+                    <label for="subject">Assunto:</label><br>
+                    <select class="box" id="subject" name="subject" required>
+                        <option value="">Selecione</option>
+                        <option value="pedido_info">Pedido de Informação</option>
+                        <option value="pedido_orcamento">Pedido de Orçamento</option>
+                        <option value="outro">Outro</option>
+                    </select><br><br>
+                    <label for="message">Mensagem:</label><br>
+                    <textarea class="box" id="message" name="message" required></textarea><br><br>
+                </section>
+
+                <section>
+                    <h3>Pedido (opcional)</h3>
+                    <label for="pedido_tipo">Tipo de Pedido:</label><br>
+                    <select class="box" id="pedido_tipo" name="pedido_tipo">
+                        <option value="">Selecione</option>
+                        <option value="bolo_aniversario">Bolo de Aniversário</option>
+                        <option value="bolo_casamento">Bolo para Casamento</option>
+                        <option value="bolo_infantil">Bolo Infantil</option>
+                        <option value="bolo_gourmet">Bolo Gourmet</option>
+                        <option value="bolo_caseiro">Bolo Caseiro</option>
+                        <option value="outro">Outro</option>
+                    </select><br><br>
+                    <label for="pedido_data">Data do Pedido:</label><br>
+                    <input class="box" type="date" id="pedido_data" name="pedido_data"><br><br>
+                    <label for="pedido_quantidade">Quantidade:</label><br>
+                    <input class="box" type="number" id="pedido_quantidade" name="pedido_quantidade"><br><br>
+                    <label for="pedido_descricao">Descrição do Pedido:</label><br>
+                    <textarea class="box" id="pedido_descricao" name="pedido_descricao"></textarea><br><br>
+                </section>
+            </div>
+        </form>
+        <a href="/index.html"><button type="submit" class="submit">ENVIAR</button></a>
+        <footer class="rodape"> © Todos os Direitos Reservados Para Matheus Araújo e Oscar Tressa.</footer>
+        <footer class="rodape-1"> © Todos os Direitos Reservados Para <br> Matheus Araújo e Oscar Tressa.</footer>
+    </section>
+    <!--FIM DA 4ª SECTION (CONTATO)-->
+    <script src="/assets/script.js"></script>
+</body>
+<!--FINAL DO BODY-->
+</html>

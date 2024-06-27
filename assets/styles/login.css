@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/assets/images/login.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container-login {
+    height: 100vh;
+    font-family: 'miso';
+    background-color: rgba(12, 10, 10, 0.489);
+}
+
+
+div h1 {
+    font-family: 'miso';
+    font-size: 17px;
+}
+
+.container {
+    background-color: rgba(38, 33, 33, 0.727);
+    position: absolute;
+    background-size: contain;
+    background-size: cover;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 45px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 0 20px rgba(72, 8, 8, 0.989);
+    text-align: center;
+    
+}
+
+
+
+input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    background-color:#fff7cc;
+    border: none;
+    padding: 17px;
+    width: 100%;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+
+button:hover {
+    background-color: #6b0011;
+    color:#fff7cc;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.rodape-1 {
+    display: block;
+    position: relative;
+    color: #b3b3b3d1;
+    margin-left: 110px;
+    top: 93%;
+}
+
+.rodape {
+    display: none;
+}
+
+@media screen and (min-width: 640px) {
+    .rodape {
+        color:#b3b3b3d1;
+        top: 93%;
+        margin-left: 100px;
+        display: flex;
+        position: relative;
+    }
+
+    .rodape-1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .rodape {
+        color:#b3b3b3d1;
+        top: 93%;
+        margin-left: 170px;
+        display: flex;
+        position: relative;
+    }
+
+    .rodape-1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .rodape {
+        color:#b3b3b3d1;
+        top: 93%;
+        margin-left: 220px;
+        display: flex;
+        position: relative;
+    }
+
+    .rodape-1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .rodape {
+        color:#b3b3b3d1;
+        top: 93%;
+        margin-left: 400px;
+        display: flex;
+        position: relative;
+    }
+
+    .rodape-1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .rodape {
+        color:#b3b3b3d1;
+        top: 93%;
+        margin-left: 450px;
+        display: flex;
+        position: relative;
+    }
+
+    .rodape-1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape {
+        color:#b3b3b3d1;
+        top: 93%;
+        margin-left: 740px;
+        display: flex;
+        position: fixed;
+    }
+
+    .rodape-1 {
+        display: none;
+    }
+}
+

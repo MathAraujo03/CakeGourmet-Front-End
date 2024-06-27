@@ -1,0 +1,103 @@
+#container-banner {
+    background-image: url(/assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 2.5em 2em;
+    height: 100vh;  
+}
+
+
+.content {
+    margin-top: 20px;
+    padding: 150px 10px 10px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 1em 0;
+    color: var(--rosa-suave);
+}
+
+.banner__titulo {
+    font-family: "miso";
+    font-weight: 510;
+}
+
+.banner__cont {
+    margin-top: 150px;
+}
+
+.img-logo {
+    margin-bottom: 0px;
+}
+
+.botao:hover {
+    background-color: #6b0011;
+    color:#fff7cc;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'miso';
+    font-weight: 700;
+}
+
+.banner__texto {
+    font-family: 'Lato,Helvetica,Arial,sans-serif';
+    font-weight: 100;
+    font-size: 16px;
+    margin: 0px 0px 30px;
+    color: var(--rosa-suave);
+}
+
+.botao {
+    background-color: #fff7cc;
+    font-family: 'miso';
+    font-weight: 700;
+    border:  none;
+    color: #375099;
+    border-radius: 3px;
+    padding: 13px 40px;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+
+/* RESPONSIVIDADE PARA TABLET */
+
+@media screen and (min-width: 840px) {
+    .banner__titulo {
+        font-size: 36px;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 7em;
+    }
+}
+
+/* RESPONSIVIDADE PARA DESKTOP */
+
+@media screen and (min-width: 1400px) {
+
+    .banner {
+        padding: 5em 0;
+    }
+
+    .botao:hover {
+        background-color: #6b0011;
+        color:#fff7cc;
+        cursor: pointer;
+        transition: 0.9s;
+    }
+    
+}
+
+@media screen and (min-width: 1728px) {
+
+    .botao:hover {
+        background-color: #6b0011;
+        color:#fff7cc;
+        cursor: pointer;
+        transition: 0.9s;
+    }
+    
+}

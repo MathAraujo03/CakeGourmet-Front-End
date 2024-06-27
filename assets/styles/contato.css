@@ -1,0 +1,346 @@
+.container-contato {
+    height: 211vh;
+    background-color: rgba(12, 10, 10, 0.89);
+}
+
+.contato-titulo {
+    color: #fff;
+    font-family: 'miso';
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+#contact-form {
+    color: #fff;
+    font-family: 'miso';
+    font-size: 20px;
+}
+
+.container-form {
+    display: block;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 80px;
+    background-color: rgba(38, 33, 33, 0.727);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(50, 9, 9, 0.775);
+}
+
+.container-preferencias {
+   margin-left: 80px;
+   margin-top: 20px;
+}
+
+.box {
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.submit {
+    background-color: #fff7cc;
+    font-family: 'miso';
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border:  none;
+    color: black;
+    border-radius: 3px;
+    padding: 6px 40px;
+    font-size: 24px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.submit:hover {
+    background-color: #6b0011;
+    color:#fff7cc;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.rodape {
+    color:#b3b3b3d1;
+    margin-top: 180px;
+    display: flex;
+    margin-right: 30px;
+}
+
+
+
+
+@media screen and (min-width: 430px ) {
+    .container-contato {
+        height: 220vh;
+        background-color: rgba(12, 10, 10, 0.89);
+    }
+}
+
+.rodape {
+    color:#b3b3b3d1;
+    margin-top: 500px;
+    margin-left: 50px;
+    display: none;
+}
+
+.rodape-1 {
+    display: block;
+    color: #b3b3b3d1;
+    margin-top: 620px;
+    margin-left: 50px;
+}
+
+
+
+
+@media screen and (min-width: 640px) {
+    .container-contato {
+        height: 90vh;
+        background-color: rgba(12, 10, 10, 0.89);
+    }
+    
+    .submit {
+        margin-left: 46%;
+        background-color: #fff7cc;
+        border: none;
+        padding: 17px;
+        width: 120px;
+        border-radius: 10px;
+        color: black;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    .submit:hover {
+        background-color: #6b0011;
+    color:#fff7cc;
+    cursor: pointer;
+    transition: 0.8s;
+    }
+
+    .contato-titulo {
+        color: #fff;
+        margin-left: 50px;
+    }
+    
+    #contact-form {
+        color: #fff;
+    }
+
+    .box {
+        padding: 10px;
+        border-radius: 6px;
+    }
+    
+    .container-form {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;  
+        align-items: center;
+        margin-left: 50px;
+        width: 600px;
+        gap: 10px 30px;
+        background-color: rgba(38, 33, 33, 0.727);
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0 0 20px rgba(50, 9, 9, 0.775);
+    }
+    
+
+    .rodape {
+        color:#b3b3b3d1;
+        margin-top: 180px;
+        margin-left: 60px;
+        display: flex;
+    }
+
+    .rodape-1 {
+        display: none;
+    }
+    
+
+}
+
+@media screen and (min-width: 760px) {
+    .rodape {
+        color:#b3b3b3d1;
+        margin-top: 260px;
+        margin-left: 100px;
+        display: flex;
+    }
+
+    .rodape-1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .container-form {
+        display: flex;
+        align-content: center;  
+        align-items: center;
+        margin-left: 90px;
+        width: 600px;
+        gap: 10px 30px;
+        background-color: rgba(38, 33, 33, 0.727);
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0 0 20px rgba(50, 9, 9, 0.775);
+    }
+    .rodape {
+        color:#b3b3b3d1;
+        margin-top: 180px;
+        margin-left: 150px;
+        display: flex;
+    }
+
+    .rodape-1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container-contato {
+        height: 125vh;
+    }  
+
+    .container-form {
+        margin-top: 50px;
+        margin-left: 190px;
+    }
+
+    .rodape {
+        color:#b3b3b3d1;
+        margin-top: 230px;
+        margin-left: 250px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    
+    .container-contato {
+        height: 125vh;
+    }  
+    
+    
+    .container-form {
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 280px;
+        width: 50%;
+        gap: 60px;
+        height: 45vh;
+        background-color: rgba(38, 33, 33, 0.727);
+        padding: 80px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(50, 9, 9, 0.775);
+    }
+
+    .box {
+        padding: 10px;
+        border-radius: 6px;
+    }
+
+    .submit {
+        margin-left: 46%;
+        background-color: #fff7cc;
+        border: none;
+        padding: 17px;
+        width: 120px;
+        border-radius: 10px;
+        color: black;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+
+    .rodape {
+        color:#b3b3b3d1;
+        margin-top: 180px;
+        margin-left: 430px;
+    }
+
+
+}
+
+@media screen and (min-width: 1400px) {
+    .container-form {
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+        margin-top: 80px;
+        margin-left: 280px;
+        width: 50%;
+        gap: 60px;
+        background-color: rgba(38, 33, 33, 0.727);
+        padding: 90px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(50, 9, 9, 0.775);
+    }
+
+    .box {
+        padding: 10px;
+        border-radius: 6px;
+    }
+
+    .submit {
+        margin-left: 47%;
+        background-color: #fff7cc;
+        border: none;
+        padding: 17px;
+        width: 120px;
+        border-radius: 10px;
+        color: black;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    .rodape {
+        color:#b3b3b3d1;
+        margin-top: 180px;
+        margin-left: 470px;
+    }
+}
+
+
+@media screen and (min-width: 1728px) {
+    .container-form {
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 450px;
+        width: 40%;
+        background-color: rgba(38, 33, 33, 0.727);
+        padding: 100px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(50, 9, 9, 0.775);
+    }
+
+    .box {
+        padding: 10px;
+        border-radius: 6px;
+    }
+
+    .submit {
+        margin-left: 46%;
+        background-color: #fff7cc;
+        border: none;
+        padding: 17px;
+        width: 120px;
+        border-radius: 10px;
+        color: black;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    .rodape {
+        color:#b3b3b3d1;
+        margin-top: 280px;
+        margin-left: 650px;
+    }
+}
+

@@ -1,0 +1,7 @@
+.banner__titulo, .banner__texto, .botao, 
+.titulo-carrossel, .slider, .apresentacao-texto,
+.videos_container, .titulo-hist, .historia-texto, .fotos-historia
+.contato-titulo, .container-form, .submit {
+   
+    visibility: hidden;
+}

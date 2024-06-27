@@ -1,0 +1,309 @@
+#container-historia {
+    height: 320vh;
+    background-color: rgba(12, 10, 10, 0.89);
+}
+
+.titulo-hist {
+    font-family: 'miso';
+    color: aliceblue;
+    margin: 0px 20px 10px 20px;
+    font-size: 30px;
+}
+
+
+.historia-texto {
+    font-family: 'miso';
+    color: aliceblue;
+    margin: 30px 20px 10px 20px;
+    font-size: 21px;
+    line-height: 1.5em;
+}
+
+.fotos-historia{
+    display: block;
+    margin-top: 30px;
+    list-style-type: none;
+    gap: 30px;
+}
+
+
+.foto-1 {
+    background-color: aliceblue;
+    padding: 20px 10px;
+    margin: 20px;
+    width: 355px;
+    margin-left: 10px;
+}
+
+.descricao-foto h3 {
+    display: block;
+   text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'miso';
+    font-weight: 500;
+    color: #6b0011;
+}
+
+.descricao-foto p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'miso';
+    color: #4e4b4c;
+}
+
+
+@media screen and (min-width: 430px) {
+    #container-historia {
+        height: 290vh;
+        background-color: rgba(12, 10, 10, 0.89);
+    }
+
+    .fotos-historia{
+        display: block;
+        margin-top: 30px;
+        list-style-type: none;
+        margin: 20px 30px;
+    }
+    
+    
+    .foto-1 {
+        background-color: aliceblue;
+        padding: 15px 0px;
+        margin: 20px;
+        width: 370px;
+        margin-left: 0px;
+
+    }
+    
+    .descricao-foto h3 {
+        display: block;
+       text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'miso';
+        font-weight: 500;
+        color: #6b0011;
+    }
+    
+    .descricao-foto p {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'miso';
+        color: #4e4b4c;
+    }
+
+    .fotos__item {
+        padding: 10px;
+        gap: 20px 30px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    #container-historia {
+        height: 180vh;
+    }    
+    .fotos-historia{
+        display: block;
+        margin-top: 30px;
+        list-style-type: none;
+        margin: 2px 30px;
+    }
+    
+    
+    .foto-1 {
+        background-color: aliceblue;
+        padding: 20px 10px;
+        margin: 20px;
+        width: 380px;
+        margin-left: 115px;
+    }
+    
+    .descricao-foto h3 {
+        display: block;
+       text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'miso';
+        font-weight: 500;
+        color: #6b0011;
+    }
+    
+    .descricao-foto p {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'miso';
+        color: #4e4b4c;
+    }
+
+    .fotos__item {
+        padding: 10px;
+        gap: 20px 30px
+    }
+}
+
+@media screen and (min-width: 760px) {
+    #container-historia {
+        height: 150vh;
+    } 
+
+    .foto-1 {
+        background-color: aliceblue;
+        display: flex;
+        padding: 0px 0px;
+        margin-top: 50px;
+        margin: 5px;
+        width: 370px;
+        margin-left: 35px;
+    }
+
+    .foto-1 img {
+        width: 100%;
+    }
+
+    .fotos-historia{
+        display: flex;
+        margin-top: 40px;
+        list-style-type: none;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .foto-1 {
+        background-color: aliceblue;
+        display: flex;
+        padding: 20px 10px;
+        margin: 20px;
+        width: 370px;
+        margin-left: 5px;
+    }
+    .fotos-historia{
+        display: flex;
+        margin-top: 10px;
+        list-style-type: none;
+        margin: 2px 30px;
+    }
+
+    #container-historia {
+        height: 190vh;
+    } 
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .foto-1 {
+        background-color: aliceblue;
+        display: flex;
+        padding: 20px 10px;
+        margin: 20px;
+        width: 370px;
+        margin-left: 55px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    
+    .container-contato {
+        height: 125vh;
+    }  
+
+    .foto-1 {
+        background-color: aliceblue;
+        display: flex;
+        padding: 20px 10px;
+        margin: 20px;
+        width: 370px;
+        margin-left: 150px;
+    }
+    .fotos-historia{
+        display: flex;
+        margin-top: 10px;
+        list-style-type: none;
+        margin: 2px 30px;
+    }
+
+@media screen and (min-width: 1400px){
+
+    #container-historia {
+        height: 140vh;
+    }
+
+    .fotos-historia {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        list-style-type: none;
+        display: flex;
+        margin-right: 60px;
+        margin-top: 25px;
+        gap: 30px;
+    }
+
+
+    .foto-1 {
+        background-color: aliceblue;
+        padding: 20px 15px;
+    }
+
+    .descricao-foto h3 {
+        display: block;
+       text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'miso';
+        font-weight: 500;
+        color: #6b0011;
+    }
+
+    .descricao-foto p {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'miso';
+        color: #4e4b4c;
+    }
+   
+}
+
+}
+
+@media screen and (min-width: 1728px){
+
+    #container-historia {
+        height: 130vh;
+    }
+
+    fotos-historia{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        list-style-type: none;
+    }
+
+
+    .foto-1 {
+        background-color: aliceblue;
+        padding: 20px 15px;
+    }
+
+    .descricao-foto h3 {
+        display: block;
+       text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'miso';
+        font-weight: 500;
+        color: #6b0011;
+    }
+
+    .descricao-foto p {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'miso';
+        color: #4e4b4c;
+    }
+   
+   
+}
+
+
